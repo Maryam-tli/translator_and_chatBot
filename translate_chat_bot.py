@@ -46,3 +46,5 @@ def chatbot(knowledge: dict):
             else:
                 print("Your Input Text Is Not English or Persian.")
 
+        else:
+            print('Bot: I cannot understand...')
