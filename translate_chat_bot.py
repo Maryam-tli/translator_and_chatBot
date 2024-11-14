@@ -13,3 +13,14 @@ def get_best_match(user_question: str, questions: dict) -> str | None:
         return matches[0]
 
 
+# Main chatbot function to interact with the user
+def chatbot(knowledge: dict):
+    while True:
+        user_input: str = input('You : ')
+
+        # Find the best match for the user input
+        best_match: str | None = get_best_match(user_input, knowledge)
+
+        # Respond based on the knowledge base
+        if answer := knowledge.get(best_match):
+            print(f'Chatbot : {answer}')
