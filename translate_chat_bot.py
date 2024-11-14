@@ -48,3 +48,14 @@ def chatbot(knowledge: dict):
 
         else:
             print('Bot: I cannot understand...')
+
+
+if __name__ == '__main__':
+    brain: dict = {
+        'hello': 'hey there!',
+        'how are you': 'I am good, thanks',
+        # More responses...
+    }
+
+    # Start the chatbot with the predefined knowledge base
+    chatbot(knowledge=brain)
