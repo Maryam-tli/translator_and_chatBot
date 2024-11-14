@@ -54,7 +54,22 @@ if __name__ == '__main__':
     brain: dict = {
         'hello': 'hey there!',
         'how are you': 'I am good, thanks',
-        # More responses...
+        'what is your name': 'I am a chatbot',
+        'what time is it ?': 'I don\'t have idea',
+        'what can you do ?': 'I can answer the questions',
+        'thank you': 'You\'re welcome',
+        'bye': 'Goodbye! Have a great day!',
+        'how old are you?': 'I don\'t age like humans!',
+        'where are you from?': 'I live in the cloud.',
+        'tell me a joke': 'Why don’t skeletons fight each other? They don’t have the guts!',
+        'can you help with math?': 'Yes, I can help with basic math problems. What do you need help with?',
+        'who are you': 'I am a friendly chatbot here to assist you!',
+        'do you know programming?': 'Yes, I can provide you with information about programming concepts.',
+        'what can you tell me about Python?': 'Python is a popular programming language known for its simplicity'
+                                              ' and readability.',
+        'how can I improve my English?': 'Practice daily, speak with native speakers if possible, '
+                                         'and watch English media.',
+        'can you tell me a story?': 'Once upon a time, in a land full of data...',
     }
 
     # Start the chatbot with the predefined knowledge base
